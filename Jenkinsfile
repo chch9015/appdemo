@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('checkout the code'){
             steps{
-                git branch: 'develop', URL: 'https://github.com/chch9015/appdemo.git'
+                git branch: 'develop', url: 'https://github.com/chch9015/appdemo.git'
             } 
         }
         stage('deploy to the appdemo server'){
